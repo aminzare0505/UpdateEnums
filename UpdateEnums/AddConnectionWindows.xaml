@@ -1,0 +1,44 @@
+﻿<Window x:Class="UpdateEnums.AddConnectionWindows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UpdateEnums"
+        mc:Ignorable="d"
+        Title="AddConnection" Height="210" Width="405" Closed="AddConnectionWindows_Closed">
+    <Grid HorizontalAlignment="Center" Width="385" Margin="0,0,0,14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="89*"/>
+            <RowDefinition Height="91*"/>
+        </Grid.RowDefinitions>
+        <UIElement.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </UIElement.RenderTransform>
+        <Label x:Name="Serverlabel" Content="Server:" HorizontalAlignment="Left" Margin="43,7,0,0" VerticalAlignment="Top" Width="62"/>
+        <TextBox Height="23" Margin="111,10,80,0" x:Name="ServerTextBox" VerticalAlignment="Top" />
+
+        <Button HorizontalAlignment="Right" Margin="0,50,186,0"
+            x:Name="TestConnectionBtn" VerticalAlignment="Top"
+            Height="23" Width="122"
+            FontFamily="Verdana" FontSize="14" FontWeight="Normal"
+            Foreground="White" Background="Blue"
+            BorderBrush="Black" Click="TestConnection_Click" Content="Test Connection" Grid.Row="1" />
+        <Label x:Name="UserNameLabel" Content="UserName:" HorizontalAlignment="Left" Margin="43,46,0,0" VerticalAlignment="Top"/>
+        <TextBox Height="23" Margin="111,49,80,0" x:Name="UserNameTextBox" VerticalAlignment="Top" TextChanged="UserNameTextBox_TextChanged" />
+
+        <Label x:Name="Passwordlabel" Content="Password:" HorizontalAlignment="Left" Margin="43,87,0,0" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <PasswordBox Height="23" Margin="111,11,80,0" x:Name="PasswordTextBox" VerticalAlignment="Top" Grid.Row="1"  />
+
+        <Button HorizontalAlignment="Right" Margin="0,50,55,0"
+            x:Name="AddBtn_Copy" VerticalAlignment="Top"
+            Height="23" Width="101"
+            FontFamily="Verdana" FontSize="14" FontWeight="Normal"
+            Foreground="White" Background="DarkGreen"
+            BorderBrush="Black" Click="Add_Click" Content="Add" Grid.Row="1" />
+    </Grid>
+</Window>

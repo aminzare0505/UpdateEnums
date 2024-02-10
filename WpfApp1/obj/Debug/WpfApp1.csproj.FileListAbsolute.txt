@@ -1,0 +1,15 @@
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\bin\Debug\WpfApp1.exe.config
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\bin\Debug\WpfApp1.exe
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\bin\Debug\WpfApp1.pdb
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\MainWindow.g.cs
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\App.g.cs
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\MainWindow.baml
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\WpfApp1.g.resources
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\WpfApp1.exe
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\WpfApp1\obj\Debug\WpfApp1.pdb

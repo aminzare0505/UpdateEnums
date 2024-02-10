@@ -1,0 +1,11 @@
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\UpdateEnumsInDBFromDll\obj\Debug\net5.0-windows7.0\UpdateEnumsInDBFromDll.csproj.AssemblyReference.cache
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\UpdateEnumsInDBFromDll\obj\Debug\net5.0-windows7.0\MainWindow.baml
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\UpdateEnumsInDBFromDll\obj\Debug\net5.0-windows7.0\MainWindow.g.cs
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\UpdateEnumsInDBFromDll\obj\Debug\net5.0-windows7.0\App.g.cs
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\UpdateEnumsInDBFromDll\obj\Debug\net5.0-windows7.0\UpdateEnumsInDBFromDll_Content.g.cs
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\UpdateEnumsInDBFromDll\obj\Debug\net5.0-windows7.0\UpdateEnumsInDBFromDll_MarkupCompile.cache
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\UpdateEnumsInDBFromDll\obj\Debug\net5.0-windows7.0\UpdateEnumsInDBFromDll.g.resources
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\UpdateEnumsInDBFromDll\obj\Debug\net5.0-windows7.0\UpdateEnumsInDBFromDll.GeneratedMSBuildEditorConfig.editorconfig
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\UpdateEnumsInDBFromDll\obj\Debug\net5.0-windows7.0\UpdateEnumsInDBFromDll.AssemblyInfoInputs.cache
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\UpdateEnumsInDBFromDll\obj\Debug\net5.0-windows7.0\UpdateEnumsInDBFromDll.AssemblyInfo.cs
+G:\KamaProject\Helper\UpdateEnumsFromDll\UpdateEnumsInDBFromDll\UpdateEnumsInDBFromDll\obj\Debug\net5.0-windows7.0\UpdateEnumsInDBFromDll.csproj.CoreCompileInputs.cache

@@ -1,0 +1,55 @@
+﻿<Window x:Class="UpdateEnums.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Update Enums" Height="475" Width="605" Background="AliceBlue" Name="FirstWindow" >
+
+    <Grid Margin="30,20,25,-41">
+        <TextBox Margin="12,184,26,161" Name="ProcessMessageTextBox"
+                  Padding="2" Background="White"  BorderThickness="1" TextWrapping="Wrap"  VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Visible"/>
+
+        <TextBox Height="23" Margin="12,21,154,0" Name="DLLPathTextBox" VerticalAlignment="Top" />
+
+        <Button HorizontalAlignment="Right" Margin="0,21,45,0"
+                Name="BrowseBtn" VerticalAlignment="Top"
+                Height="23" Width="101"
+                FontFamily="Verdana" FontSize="14" FontWeight="Normal"
+                Foreground="White" Background="DarkGreen"
+                BorderBrush="Black" Click="Browse_Click" >
+            Browse DLL
+        </Button>
+
+        <Button Margin="12,124,405,0" Name="StartProcessBtn" VerticalAlignment="Top"
+                Height="24" FontFamily="Verdana" FontSize="14" FontWeight="Normal"
+                Foreground="White" Background="DarkGreen"
+                BorderBrush="Black" Click="StartProcess_Click" >
+            Start Process
+        </Button>
+        <Label x:Name="label" Content="لطفا رفرنس  مورد نظر را انتخاب کنید" HorizontalAlignment="Left" Margin="207,-9,0,0" VerticalAlignment="Top"/>
+
+        <ProgressBar  Name="ProgressBarLoading"
+              Minimum="0"
+              Maximum="100"
+              HorizontalAlignment="Left"
+              VerticalAlignment="Top"
+              Value="{Binding ProgressValue}"
+                      
+              Width="353"
+              Height="24" Margin="134,124,0,0"/>
+        <TextBlock Text="{Binding ElementName=ProgressBarLoading, Path=Value, StringFormat={}{0:0}%}"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top" RenderTransformOrigin="-3.069,0.692" Margin="302,128,0,0" />
+        <Label x:Name="label2" Content="Developed By Amin Zare 2024" HorizontalAlignment="Left" Margin="165,378,0,0" VerticalAlignment="Top"/>
+        <TextBox Height="48" Margin="12,71,154,0" x:Name="ConnectionStringTextBox" VerticalAlignment="Top" TextWrapping="Wrap"   />
+        <Label x:Name="ConnectionStringlabel" Content="ConnectionString :" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="DLLPathlabel" Content="DLL Path :" HorizontalAlignment="Left" Margin="12,-4,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ProcessMessagelabel" Content="Process Message :" HorizontalAlignment="Left" Margin="10,153,0,0" VerticalAlignment="Top"/>
+        <Button Margin="390,75,45,0" x:Name="AddConnectionBtn" VerticalAlignment="Top"
+            Height="40" FontFamily="Verdana" FontSize="12" FontWeight="Normal"
+            Foreground="White" Background="DarkGreen"
+            BorderBrush="Black" Click="AddConnection_Click" Content="Add Connection" Visibility="Hidden" />
+        <TextBox x:Name="IsEncriptTextBox" HorizontalAlignment="Left" Margin="401,53,0,0" TextWrapping="Wrap" Text="True" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+
+
+    </Grid>
+
+</Window>
